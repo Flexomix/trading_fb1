@@ -1,55 +1,74 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-
-<script src="https://api.tgtrack.ru/API/landing_script/v1/?linkID=07650c2ea2052f&chat=proton_trader&type=fb&onClickGoal=PerehodVkanal&fbpxid=1817650752434295" type="text/javascript" defer></script>
-
     <meta charset="UTF-8">
-    <title>Заработок на крипте</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Telegram</title>
+    <!-- Подключаем Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
     <style>
         body {
-            background: #f8f8f8;
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-        }
-        .container {
-            background: #fff;
-            max-width: 400px;
-            margin: 80px auto;
-            padding: 32px 24px 24px 24px;
-            border-radius: 12px;
-            box-shadow: 0 4px 24px rgba(0,0,0,0.08);
-            text-align: center;
-        }
-        .container img {
-            width: 150px;
-            height: 150px;
-            object-fit: cover;
-            border-radius: 12px;
-            margin-bottom: 18px;
-        }
-        .container h1 {
-            font-size: 1.6em;
-            margin: 0 0 10px 0;
-        }
-        .container p {
-            color: #444;
-            margin: 0;
+            font-family: 'Inter', sans-serif;
         }
     </style>
 </head>
-<body>
-    <div class="container">
-        <img src="https://i.postimg.cc/T3QB2GQL/photo-5431669789077660642-c.jpg" alt="Картинка">
-        <h1>Добро пожаловать!</h1>
-        <p>Для подписки на телеграм-канал нажмите на ссылку:👇</p>
-        <br>
-        <a href="https://t.me/proton_trader" style="display: inline-block; text-decoration: none;">
-            <div style="color: black; border: 1px solid #ccc; padding: 10px;">
-            ✅ Подписаться на канал
+
+    <!-- Скрипт tgtrack -->
+    <script src="https://api.tgtrack.ru/API/landing_script/v1/?linkID=d4b7ea0f5264cf&type=fb&fbpxid=1374716063643483" type="text/javascript" defer></script>
+
+    
+<body class="min-h-screen flex flex-col items-center text-white bg-gradient-to-b from-[#12161f] to-[#0a0d12]">
+
+    <!-- Шапка (Header) - Адаптивная, растягивается на всю ширину экрана -->
+    <header class="w-full bg-[#1a202c] py-4 px-6 flex justify-between items-center shadow-md">
+        <div class="flex items-center gap-3">
+            <!-- Логотип Telegram (Замените ссылку на свою) -->
+            <img src="https://upload.wikimedia.org/wikipedia/commons/8/82/Telegram_logo.svg" alt="Telegram Logo" class="w-8 h-8 object-contain">
+            <span class="font-semibold text-lg">Telegram</span>
+        </div>
+        <!-- Кнопка Download (Ссылка) -->
+        <a href="https://t.me/AlphaFGPT_Signals_bot" class="bg-[#2b9af3] hover:bg-blue-600 text-white font-semibold py-1.5 px-5 rounded-xl text-sm transition-colors shadow-sm">
+            DOWNLOAD
+        </a>
+    </header>
+
+    <!-- Основной контент (Карточка канала) -->
+    <div class="w-full max-w-md p-4 flex flex-col">
+        <div class="bg-[#222834] rounded-3xl p-5 shadow-2xl">
+
+            <!-- Верхняя часть: Аватар, название, подписчики -->
+            <div class="text-center mb-6">
+                <!-- Аватарка (Прежняя ссылка) -->
+                <img src="https://i.ibb.co/7tpdVRp9/avatar.jpg" alt="Channel Avatar" class="w-32 h-32 rounded-full mx-auto object-cover border-4 border-[#222834] shadow-md mb-4">
+                
+                <div class="flex items-center justify-center gap-1.5 mb-1">
+                    <h1 class="text-xl font-bold">AlphaGPT | Signals</h1>
+                    
+                    <!-- ГАЛОЧКА ТЕПЕРЬ КАРТИНКОЙ -->
+                    <!-- Вставьте ссылку на вашу галочку в src="" -->
+                    <img src="https://i.ibb.co/rrKvs9f/2026-10-07-0445253.png" alt="Verified" class="w-6 h-6 object-contain flex-shrink-0">
+                    
+                </div>
+                <p class="text-gray-400 text-sm mb-3">@AlphaFGPT_Signals_bot</p>
+                <p class="text-gray-400 text-sm mb-3">54 320 monthly users</p>
+
+                <!-- Описание -->
+                <p class="text-gray-300 text-sm leading-relaxed mb-5">
+                    🤖 An AI bot that gives signals with 98% accuracy. 💸 Just copy its trades and earn $100+ per day automatically.
+                </p>
+
+                <!-- Кнопка "Подписаться" (Ссылка) -->
+                <div class="flex justify-center">
+                    <a href="https://t.me/AlphaFGPT_Signals_bot" class="bg-[#2b9af3] hover:bg-blue-600 text-white font-bold py-3 px-10 rounded-full shadow-md transition-colors">
+                        START BOT
+                    </a>
+                </div>
             </div>
-</a>
+          
+
+        </div>
     </div>
+
 </body>
 </html>
